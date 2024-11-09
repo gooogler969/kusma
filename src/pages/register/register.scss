@@ -1,0 +1,94 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3751FE;
+
+    .card{
+        width: 50%;
+        display: flex;
+        background-color: #fff;
+        min-height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            display: flex;
+            justify-content: center;
+            
+            p {
+                color: #3751FE;
+                font-size: 18px;
+                font-weight: 900;
+                border-bottom: 5px solid #F02EA1;
+                
+            }
+            h1 {
+                font-size: 36px;
+                color: #F02EA1;
+                margin-top: 50px;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid #888;
+                    padding: 10px 5px;
+                }
+
+                button {
+                    padding: 10px;
+                    color: #fff;
+                    background-color: #3751FE;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background: #F02EA1;
+                }
+
+                .log-btn {
+                    display: flex;
+                    text-decoration: none;
+                    
+                    button {
+                        width: 100%;
+                        color: #fff;
+                        background-color: #F02EA1;
+                    }
+                }
+            }
+        }
+        .right {
+            flex: 1;
+            background: linear-gradient(rgba(0, 90, 126, 0.5), rgba(0, 34, 126, 0.5)), url("../../img/reg-img.jpg") center;
+            background-size: cover;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                margin-top: 200px;
+                font-size: 16px;
+                
+            }
+        }
+    }
+}
